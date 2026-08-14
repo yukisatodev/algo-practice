@@ -13,7 +13,7 @@ import java.util.Map;
  *
  * メモ: HashMapに「これまで見た値 -> インデックス」を持たせて1回のループで解く。
  */
-public class TwoSum {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine().trim());

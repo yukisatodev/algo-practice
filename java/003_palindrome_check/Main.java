@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * メモ: StringBuilder.reverse()で反転し、元の文字列と比較する。
  */
-public class PalindromeCheck {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine().trim();

@@ -9,7 +9,7 @@ import java.util.Scanner;
  * メモ: Javaはファイル名とpublicクラス名を一致させる必要がある。
  *       そのため、番号はフォルダ名(001_fizzbuzz/)側で管理している。
  */
-public class FizzBuzz {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine().trim());
